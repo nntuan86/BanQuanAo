@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Logo.ascx.cs" Inherits="BanQuanAo.Modules.Logo" %>
+<a href="Default.aspx"><img class="img-responsive" src="Public/Images/Logo/logo02.png"  width="160" height="40" alt="Logo" /></a>

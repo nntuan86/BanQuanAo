@@ -1,0 +1,42 @@
+#header-cart 
+{
+	display: inline-block;
+	margin: 15% 12% 0% 15%;
+	padding: 0;
+}
+.item.header-cart 
+{
+	border: 4px solid #fff;
+	padding: 8px 11px 8px 10px;		    
+	border-radius: 8px;		    
+	margin-left: 0;
+	letter-spacing: .7px;
+	font-weight: 400;
+	font-size: 13px;
+	vertical-align: middle;
+}
+#header-cart a
+{
+	color:  #f68d45;
+	font-weight: bold;
+}
+.item.header-cart .ico 
+{
+	font-size: 18px;
+	left: 8px;
+	top: 9px;
+	position: absolute;
+}
+.item.header-cart span.cart-count 
+{
+	color: #fff;
+	background: #f68d45;
+	height: 20px;
+	border-radius: 2px;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+	font-size: 13px;
+	padding: 0 6px;
+	font-weight: 700;
+}

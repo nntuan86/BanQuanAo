@@ -1,0 +1,107 @@
+﻿#cssmenu_mainmenu ul {
+  margin: 0;
+  margin-left: -4%;
+  padding: 0 10px ;
+  background: #11252F;
+  line-height: 100%;
+  border-radius: 1em;
+  font: normal 0.5333333333333333em Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  width: 125%;
+  text-transform: uppercase;
+}
+#cssmenu_mainmenu li {
+  margin: 0 5px;
+  padding: 0 0 8px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#cssmenu_mainmenu a,
+#cssmenu_mainmenu a:link {
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px 8px;
+  margin: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+#cssmenu_mainmenu a:hover {
+  background: #000;
+  color: #fff;
+}
+#cssmenu_mainmenu .active a,
+#cssmenu_mainmenu li:hover > a {
+  background: #979797 url("../images/overlay.png") repeat-x 0 -40px;
+  background: #666666 url("../images/overlay.png") repeat-x 0 -40px;
+  color: #f68d45;
+  font-size: 15px;
+  border-top: solid 1px  #f8f8f8;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 0 #ffffff;
+}
+#cssmenu_mainmenu ul ul li:hover a,
+#cssmenu_mainmenu li:hover li a {
+  background: none;
+  border: none;
+  color: #666;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+#cssmenu_mainmenu ul ul a:hover {
+  background: #7d7d7d url("../images/overlay.png") repeat-x 0 -100px !important;
+  color: #fff !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+#cssmenu_mainmenu li:hover > ul {
+  display: block;
+}
+#cssmenu_mainmenu ul ul {
+  z-index: 1000;
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background: #ffffff url("../images/overlay.png") repeat-x 0 0;
+  border: solid 1px #b4b4b4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+#cssmenu_mainmenu ul ul li {
+  float: none;
+  margin: 0;
+  padding: 0px;
+}
+#cssmenu_mainmenu ul ul a,
+#cssmenu_mainmenu ul ul a:link {
+  font-weight: normal;
+  font-size: 14px;
+}
+#cssmenu_mainmenu ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+* html #cssmenu_mainmenu ul {
+  height: 1%;
+}
